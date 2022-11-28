@@ -22,8 +22,11 @@
 .page-header__list {
   display: flex;
 }
-.page-header__item:not(:last-child) {
-  margin-right: 24px;
+.page-header__item {
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+  cursor: pointer;
 }
 .nav {
   display: none;
