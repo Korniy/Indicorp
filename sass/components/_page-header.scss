@@ -1,19 +1,41 @@
 .page-header {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
 }
+
 .header-wrapper {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.1px;
+  color: var(--text-color);
+}
+.page-header__list {
   display: flex;
+}
+.page-header__item:not(:last-child) {
+  margin-right: 24px;
 }
 .nav {
+  display: none;
 }
 .nav__list {
-  display: flex;
 }
 .nav__item {
 }
 .nav__link {
 }
-.page-header__list {
-  display: flex;
+.page-header__bottomlist {
+  display: none;
 }
-.page-header__item {
+.page-header__bottomitem {
 }
