@@ -1,0 +1,18 @@
+.page-clients {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background: #fafafa;
+}
+.page-clients__item {
+  display: flex;
+  justify-content: center;
+
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+.box {
+  width: 420px;
+  background-color: #16697a;
+}
