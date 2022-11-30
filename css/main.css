@@ -500,7 +500,6 @@ p {
 
 .page-clients {
   padding-top: 30px;
-  padding-bottom: 30px;
   background: #fafafa;
 }
 
@@ -518,7 +517,84 @@ p {
 }
 
 .box {
-  width: 420px;
+  padding: 30px;
+  margin-top: 60px;
   background-color: #16697a;
+}
+
+.box__title {
+  width: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--light-text-color);
+}
+
+.box__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box__input {
+  padding-left: 20px;
+  margin-right: 5px;
+  min-width: 195px;
+  min-height: 58px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  outline: none;
+}
+
+.box__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: var(--second-text-color);
+}
+
+.box__input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: var(--second-text-color);
+}
+
+.box__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: var(--second-text-color);
+}
+
+.box__input::placeholder {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: var(--second-text-color);
+}
+
+.box__btn {
+  display: inline-block;
+  padding: 10px;
+  min-width: 90px;
+  min-height: 58px;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--light-text-color);
+  background: var(--primary-color);
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
