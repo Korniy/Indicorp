@@ -8,7 +8,7 @@
 .header-wrapper {
   @media screen and (min-width: 320px) and (max-width: 767px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
   }
 }
@@ -21,6 +21,7 @@
 }
 .page-header__list {
   display: flex;
+  margin-left: auto;
 }
 .page-header__item {
   &:not(:last-child) {

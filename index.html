@@ -49,29 +49,37 @@
             </svg>
           </li>
           <li class="page-header__item list">
-            <svg class="page-header__icon" width="24" height="24">
-              <use href="./images/icons/symbol-defs.svg#icon-burger-menu"></use>
-            </svg>
+            <button type="button" class="page-header__btn" aria-controls="mobile-overlay" data-menu-button>
+              <svg class="page-header__icon" width="24" height="24" aria-label="Перемикач мобільного меню">
+                <use class="mobile-menu-open" href="./images/icons/symbol-defs.svg#icon-burger-menu"></use>
+                <use class="mobile-menu-close" href="./images/icons/hrest.svg#icon-burger-close"></use>
+              </svg>
+            </button>
           </li>
         </ul>
 
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item list">
-              <a href="" class="nav__link link">Home</a>
-            </li>
-            <li class="nav__item list">
-              <a href="" class="nav__link link">Product</a>
-            </li>
-            <li class="nav__item list">
-              <a href="" class="nav__link link">Pricing</a>
-            </li>
-            <li class="nav__item list">
-              <a href="" class="nav__link link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-
+      <!-- Мобільне меню -->
+        <div class="mobile-overlay" id="mobile-overlay" data-menu>
+          <div class="mobile-menu">
+           <nav class="nav">
+             <ul class="nav__list">
+               <li class="nav__item list">
+                 <a href="" class="nav__link link">Home</a>
+               </li>
+               <li class="nav__item list">
+                 <a href="" class="nav__link link">Product</a>
+               </li>
+               <li class="nav__item list">
+                 <a href="" class="nav__link link">Pricing</a>
+               </li>
+               <li class="nav__item list">
+                 <a href="" class="nav__link link">Contact</a>
+               </li>
+             </ul>
+           </nav>
+          </div>
+        </div>
+       
         <ul class="page-header__bottomlist">
           <li class="page-header__bottomitem list">
             <svg class="page-header__svg" width="24" height="24">
@@ -374,7 +382,7 @@
             physics: Newtonian mechanics
           </p>
           <address class="page-contacts__adress">
-    <ul class="page-contacts__list">
+          <ul class="page-contacts__list">
             <li class="page-contacts__item list">
               <div class="page-contacts__wrapper">
                 <svg class="page-contacts__icon" width="72" height="72">
@@ -431,8 +439,8 @@
       </div>
       </section>
     </main>
+      <!-- Підвал -->
 
-    <!-- Підвал -->
     <footer class="page-footer">
       <div class="container">
         <h3 class="page-footer__title">Consulting Agency For Your Business</h3>
@@ -501,8 +509,9 @@
            </li>
           </ul>
         </div>
-        <p class="page-footer__desc">Made With Love By Figmaland 
-All Right Reserved loremlorem</p>
+        <p class="page-footer__desc">
+          Made With Love By Figmaland All Right Reserved loremlorem
+        </p>
         <ul class="socials-list">
           <li class="socials-list__item list">
             <a href="">
