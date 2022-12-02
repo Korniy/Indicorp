@@ -32,11 +32,9 @@
 
   <body>
     <!-- Шапка -->
-
     <header class="page-header">
       <div class="container header-wrapper">
         <a href="" class="logo link">Indicorp</a>
-
         <ul class="page-header__list">
           <li class="page-header__item list">
             <svg class="page-header__icon" width="24" height="24">
@@ -49,51 +47,62 @@
             </svg>
           </li>
           <li class="page-header__item list">
-            <button type="button" class="page-header__btn" aria-controls="mobile-overlay" data-menu-button>
-              <svg class="page-header__icon" width="24" height="24" aria-label="Перемикач мобільного меню">
-                <use class="mobile-menu-open" href="./images/icons/symbol-defs.svg#icon-burger-menu"></use>
-                <use class="mobile-menu-close" href="./images/icons/hrest.svg#icon-burger-close"></use>
+            <button
+              type="button"
+              class="page-header__btn"
+              aria-controls="mobile-overlay"
+              data-menu-button
+            >
+              <svg
+                class="page-header__icon"
+                width="24"
+                height="24"
+                aria-label="Перемикач мобільного меню"
+              >
+                <use
+                  class="mobile-menu-open"
+                  href="./images/icons/symbol-defs.svg#icon-burger-menu"
+                ></use>
+                <use
+                  class="mobile-menu-close"
+                  href="./images/icons/hrest.svg#icon-burger-close"
+                ></use>
               </svg>
             </button>
           </li>
         </ul>
-
-      <!-- Мобільне меню -->
-        <div class="mobile-overlay" id="mobile-overlay" data-menu>
-          <div class="mobile-menu">
-           <nav class="nav">
-             <ul class="nav__list">
-               <li class="nav__item list">
-                 <a href="" class="nav__link link">Home</a>
-               </li>
-               <li class="nav__item list">
-                 <a href="" class="nav__link link">Product</a>
-               </li>
-               <li class="nav__item list">
-                 <a href="" class="nav__link link">Pricing</a>
-               </li>
-               <li class="nav__item list">
-                 <a href="" class="nav__link link">Contact</a>
-               </li>
-             </ul>
-           </nav>
-          </div>
-        </div>
-       
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item list">
+              <a href="" class="nav__link link">Home</a>
+            </li>
+            <li class="nav__item list">
+              <a href="" class="nav__link link">Product</a>
+            </li>
+            <li class="nav__item list">
+              <a href="" class="nav__link link">Pricing</a>
+            </li>
+            <li class="nav__item list">
+              <a href="" class="nav__link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="page-header__bottomlist">
           <li class="page-header__bottomitem list">
-            <svg class="page-header__svg" width="24" height="24">
-              <use href="./images/icons/symbol-defs.svg#icon-small-phone"></use>
-            </svg>
-            <a href="tel:(480)555-0103" class="page-header__link link">(480) 555-0103</a>
+            <a href="tel:(480)555-0103" class="page-header__link link">
+              <svg class="page-header__svg" width="18" height="18">
+                <use href="./images/icons/symbol-defs.svg#icon-small-phone"></use>
+              </svg>
+              (480) 555-0103
+            </a>
           </li>
           <li class="page-header__bottomitem list">
-            <svg class="page-header__svg" width="24" height="26">
-              <use href="./images/icons/symbol-defs.svg#icon-small-telegram"></use>
-            </svg>
-            <a href="mailto:debra.holt@example.com" class="page-header__link link"
-              >debra.holt@example.com</a
-            >
+            <a href="mailto:debra.holt@example.com" class="page-header__link link">
+              <svg class="page-header__svg" width="18" height="18">
+                <use href="./images/icons/symbol-defs.svg#icon-small-telegram"></use>
+              </svg>
+              debra.holt@example.com
+            </a>
           </li>
         </ul>
       </div>
@@ -382,165 +391,195 @@
             physics: Newtonian mechanics
           </p>
           <address class="page-contacts__adress">
-          <ul class="page-contacts__list">
-            <li class="page-contacts__item list">
-              <div class="page-contacts__wrapper">
-                <svg class="page-contacts__icon" width="72" height="72">
-                  <use href="./images/icons/symbol-defs.svg#icon-big-phone"></use>
-                </svg>
-                <p class="page-contacts__desc">
-                  <a href="tel:(480)555-0103" class="page-contacts__link link">(480) 555-0103</a>
-                  <a href="tel:(480)555-9999" class="page-contacts__link link">(480) 555-9999</a>
-                </p>
-                <h3 class="page-contacts__caption">Get Support</h3>
-                <button type="submit" class="page-contacts__btn">Submit Request</button>
-              </div>
-            </li>
-            <li class="page-contacts__item list">
-              <div class="page-contacts__wrapper">
-                <svg class="page-contacts__icon" width="72" height="72">
-                  <use href="./images/icons/symbol-defs.svg#icon-big-map"></use>
-                </svg>
-                <p class="page-contacts__desc">
-                  <a
-                    href="https://www.google.com/maps/search/4517+Washington+Ave./@39.857974,-85.2398883,6z/data=!3m1!4b1?hl=uk"
-                    class="page-contacts__link link"
-                    >4517 Washington Ave.
-                  </a>
-                  <a
-                    href="https://www.google.com/maps/place/4517+Boston+Ave,+Lubbock,+TX+79413,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@33.5531853,-101.8769476,17z/data=!3m1!4b1!4m5!3m4!1s0x86fe6d692718cd37:0xd6f656026518fd1d!8m2!3d33.5531808!4d-101.8747589?hl=uk"
-                    class="page-contacts__link link"
-                    >4517 Boston Ave.
-                  </a>
-                </p>
-                <h3 class="page-contacts__caption">Get Support</h3>
-                <button type="submit" class="page-contacts__btn">Submit Request</button>
-              </div>
-            </li>
-            <li class="page-contacts__item list">
-              <div class="page-contacts__wrapper">
-                <svg class="page-contacts__icon" width="72" height="72">
-                  <use href="./images/icons/symbol-defs.svg#icon-big-telegram"></use>
-                </svg>
-                <p class="page-contacts__desc">
-                  <a href="mailto:georgia.young@example.com" class="page-contacts__link link"
-                    >georgia.young@example.com</a
-                  >
-                  <a href="mailto:georgia.young@ple.com" class="page-contacts__link link"
-                    >georgia.young@ple.com</a
-                  >
-                </p>
-                <h3 class="page-contacts__caption">Get Support</h3>
-                <button type="submit" class="page-contacts__btn">Submit Request</button>
-              </div>
-            </li>
-          </ul>
+            <ul class="page-contacts__list">
+              <li class="page-contacts__item list">
+                <div class="page-contacts__wrapper">
+                  <svg class="page-contacts__icon" width="72" height="72">
+                    <use href="./images/icons/symbol-defs.svg#icon-big-phone"></use>
+                  </svg>
+                  <p class="page-contacts__desc">
+                    <a href="tel:(480)555-0103" class="page-contacts__link link">(480) 555-0103</a>
+                    <a href="tel:(480)555-9999" class="page-contacts__link link">(480) 555-9999</a>
+                  </p>
+                  <h3 class="page-contacts__caption">Get Support</h3>
+                  <button type="submit" class="page-contacts__btn">Submit Request</button>
+                </div>
+              </li>
+              <li class="page-contacts__item list">
+                <div class="page-contacts__wrapper">
+                  <svg class="page-contacts__icon" width="72" height="72">
+                    <use href="./images/icons/symbol-defs.svg#icon-big-map"></use>
+                  </svg>
+                  <p class="page-contacts__desc">
+                    <a
+                      href="https://www.google.com/maps/search/4517+Washington+Ave./@39.857974,-85.2398883,6z/data=!3m1!4b1?hl=uk"
+                      class="page-contacts__link link"
+                      >4517 Washington Ave.
+                    </a>
+                    <a
+                      href="https://www.google.com/maps/place/4517+Boston+Ave,+Lubbock,+TX+79413,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@33.5531853,-101.8769476,17z/data=!3m1!4b1!4m5!3m4!1s0x86fe6d692718cd37:0xd6f656026518fd1d!8m2!3d33.5531808!4d-101.8747589?hl=uk"
+                      class="page-contacts__link link"
+                      >4517 Boston Ave.
+                    </a>
+                  </p>
+                  <h3 class="page-contacts__caption">Get Support</h3>
+                  <button type="submit" class="page-contacts__btn">Submit Request</button>
+                </div>
+              </li>
+              <li class="page-contacts__item list">
+                <div class="page-contacts__wrapper">
+                  <svg class="page-contacts__icon" width="72" height="72">
+                    <use href="./images/icons/symbol-defs.svg#icon-big-telegram"></use>
+                  </svg>
+                  <p class="page-contacts__desc">
+                    <a href="mailto:georgia.young@example.com" class="page-contacts__link link"
+                      >georgia.young@example.com</a
+                    >
+                    <a href="mailto:georgia.young@ple.com" class="page-contacts__link link"
+                      >georgia.young@ple.com</a
+                    >
+                  </p>
+                  <h3 class="page-contacts__caption">Get Support</h3>
+                  <button type="submit" class="page-contacts__btn">Submit Request</button>
+                </div>
+              </li>
+            </ul>
           </address>
-      </div>
+        </div>
       </section>
     </main>
-      <!-- Підвал -->
 
+    <!-- Підвал -->
     <footer class="page-footer">
       <div class="container">
         <h3 class="page-footer__title">Consulting Agency For Your Business</h3>
         <p class="page-footer__text">the quick fox jumps over the lazy dog</p>
         <button type="button" class="page-footer__btn">Contact Us</button>
         <div class="inner">
-         <ul class="page-footer__list">
-           <li class="page-footer__item list">
+          <ul class="page-footer__list">
+            <li class="page-footer__item list">
               Company Info
               <ul class="page-footer__sublist">
-               <li class="page-footer__subitem list">About Us</li>
-               <li class="page-footer__subitem list">Carrier</li>
-               <li class="page-footer__subitem list">We are hiring</li>
-               <li class="page-footer__subitem list">Blog</li>
-             </ul>
-           </li>
+                <li class="page-footer__subitem list">About Us</li>
+                <li class="page-footer__subitem list">Carrier</li>
+                <li class="page-footer__subitem list">We are hiring</li>
+                <li class="page-footer__subitem list">Blog</li>
+              </ul>
+            </li>
             <li class="page-footer__item list">
               Legal
               <ul class="page-footer__sublist">
-               <li class="page-footer__subitem list">About Us</li>
-               <li class="page-footer__subitem list">Carrier</li>
-               <li class="page-footer__subitem list">We are hiring</li>
-               <li class="page-footer__subitem list">Blog</li>
-             </ul>
-           </li>
+                <li class="page-footer__subitem list">About Us</li>
+                <li class="page-footer__subitem list">Carrier</li>
+                <li class="page-footer__subitem list">We are hiring</li>
+                <li class="page-footer__subitem list">Blog</li>
+              </ul>
+            </li>
             <li class="page-footer__item list">
               Features
               <ul class="page-footer__sublist">
-               <li class="page-footer__subitem list">Business Marketing</li>
-               <li class="page-footer__subitem list">User Analytic</li>
-               <li class="page-footer__subitem list">Live Chat</li>
-               <li class="page-footer__subitem list">Unlimited Support</li>
-             </ul>
-           </li>
+                <li class="page-footer__subitem list">Business Marketing</li>
+                <li class="page-footer__subitem list">User Analytic</li>
+                <li class="page-footer__subitem list">Live Chat</li>
+                <li class="page-footer__subitem list">Unlimited Support</li>
+              </ul>
+            </li>
             <li class="page-footer__item list">
               Resources
               <ul class="page-footer__sublist">
-               <li class="page-footer__subitem list">IOS & Android</li>
-               <li class="page-footer__subitem list">Watch a Demo</li>
-               <li class="page-footer__subitem list">Customers</li>
-               <li class="page-footer__subitem list">API</li>
-             </ul>
-           </li>
+                <li class="page-footer__subitem list">IOS & Android</li>
+                <li class="page-footer__subitem list">Watch a Demo</li>
+                <li class="page-footer__subitem list">Customers</li>
+                <li class="page-footer__subitem list">API</li>
+              </ul>
+            </li>
             <li class="page-footer__item list">
               Get In Touch
-             <ul class="page-footer__sublist">
-               <li class="page-footer__subitem list">
-                 <svg class="" width="24" height="24">
-                   <use href="./images/icons/symbol-defs.svg#icon-small-phone"></use>
-                 </svg>
-                 <a class="page-footer__link link" href="tel:(480)555-0103">(480) 555-0103</a>
+              <ul class="page-footer__sublist">
+                <li class="page-footer__subitem list">
+                  <svg class="page-footer__icon" width="24" height="24">
+                    <use href="./images/icons/symbol-defs.svg#icon-small-phone"></use>
+                  </svg>
+                  <a class="page-footer__link link" href="tel:(480)555-0103">(480) 555-0103</a>
                 </li>
-               <li class="page-footer__subitem list">
-                 <svg class="" width="24" height="24">
-                   <use href="./images/icons/symbol-defs.svg#icon-small-map"></use>
-                 </svg>
-                 <a class="page-footer__link link" href="https://www.google.com/maps/search/4517+Washington+Ave./@39.857974,-85.2398883,6z/data=!3m1!4b1?hl=uk">4517 Washington Ave.</a>
+                <li class="page-footer__subitem list">
+                  <svg class="page-footer__icon" width="24" height="24">
+                    <use href="./images/icons/symbol-defs.svg#icon-small-map"></use>
+                  </svg>
+                  <a
+                    class="page-footer__link link"
+                    href="https://www.google.com/maps/search/4517+Washington+Ave./@39.857974,-85.2398883,6z/data=!3m1!4b1?hl=uk"
+                    >4517 Washington Ave.</a
+                  >
                 </li>
-               <li class="page-footer__subitem list">
-                 <svg class="" width="24" height="24">
-                   <use href="./images/icons/symbol-defs.svg#icon-small-telegram"></use>
-                 </svg>
-                 <a class="page-footer__link link" href="mailto:debra.holt@example.com">debra.holt@example.com</a>
+                <li class="page-footer__subitem list">
+                  <svg class="page-footer__icon" width="24" height="24">
+                    <use href="./images/icons/symbol-defs.svg#icon-small-telegram"></use>
+                  </svg>
+                  <a class="page-footer__link link" href="mailto:debra.holt@example.com"
+                    >debra.holt@example.com</a
+                  >
                 </li>
-             </ul>
-           </li>
+              </ul>
+            </li>
           </ul>
         </div>
-        <p class="page-footer__desc">
-          Made With Love By Figmaland All Right Reserved loremlorem
-        </p>
+        <p class="page-footer__desc">Made With Love By Figmaland All Right Reserved loremlorem</p>
         <ul class="socials-list">
           <li class="socials-list__item list">
             <a href="">
               <svg class="socials-list__icon" width="24" height="24">
-            <use href="./images/icons/symbol-defs.svg#icon-footer_facebook"></use>
-          </svg>
+                <use href="./images/icons/symbol-defs.svg#icon-footer_facebook"></use>
+              </svg>
             </a>
-            </li>
+          </li>
           <li class="socials-list__item list">
-            <a href=""> <svg class="socials-list__icon" width="24" height="24">
-            <use href="./images/icons/symbol-defs.svg#icon-footer_instagram"></use>
-          </svg>
-        </a>
-           </li>
+            <a href="">
+              <svg class="socials-list__icon" width="24" height="24">
+                <use href="./images/icons/symbol-defs.svg#icon-footer_instagram"></use>
+              </svg>
+            </a>
+          </li>
           <li class="socials-list__item list">
-            <a href=""><svg class="socials-list__icon" width="24" height="24">
-            <use href="./images/icons/symbol-defs.svg#icon-footer_twitter"></use>
-          </svg>
-        </a>
-            </li>
+            <a href=""
+              ><svg class="socials-list__icon" width="24" height="24">
+                <use href="./images/icons/symbol-defs.svg#icon-footer_twitter"></use>
+              </svg>
+            </a>
+          </li>
           <li class="socials-list__item list">
-            <a href=""><svg class="socials-list__icon" width="24" height="24">
-            <use href="./images/icons/symbol-defs.svg#icon-footer-youtube"></use>
-          </svg>
-        </a>
-            </li>
+            <a href=""
+              ><svg class="socials-list__icon" width="24" height="24">
+                <use href="./images/icons/symbol-defs.svg#icon-footer-youtube"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
-      </div
+      </div>
     </footer>
+
+    <!-- Мобільне меню -->
+    <div class="mobile-overlay" id="mobile-overlay" data-menu>
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item list">
+              <a href="" class="mobile-nav__link link">Home</a>
+            </li>
+            <li class="mobile-nav__item list">
+              <a href="" class="mobile-nav__link link">Product</a>
+            </li>
+            <li class="mobile-nav__item list">
+              <a href="" class="mobile-nav__link link">Pricing</a>
+            </li>
+            <li class="mobile-nav__item list">
+              <a href="" class="mobile-nav__link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
     <script src="./js/burger-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
