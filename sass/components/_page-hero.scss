@@ -12,6 +12,23 @@
       background-image: url('/images/background-mobile@2x.jpg');
     }
   }
+  // @media screen and (min-width: 768px) {
+  //   background-image: url('/images/background.jpg');
+  //   background-repeat: no-repeat;
+  //   background-position: right;
+  //   background-size: cover;
+
+  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //     background-image: url('/images/background2x.jpg');
+  //   }
+  // }
+
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    padding-top: 60px;
+    padding-bottom: 0;
+
+    background-color: rgb(243, 243, 243);
+  }
 }
 
 .page-hero__title {
@@ -20,6 +37,15 @@
   line-height: 1.42;
   text-align: center;
   letter-spacing: 0.2px;
+
+  @media screen and (min-width: 768px) {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.38;
+    text-align: left;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 .page-hero__text {
   margin-top: 40px;
@@ -31,6 +57,21 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: var(--second-text-color);
+
+  @media screen and (min-width: 768px) {
+    width: 376px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: left;
+  }
+}
+.page-hero__list {
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    display: flex;
+    margin-top: 50px;
+  }
 }
 .page-hero__item {
   margin-right: auto;
@@ -41,6 +82,20 @@
 
   &:not(:last-child) {
     margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    margin: 0;
+
+    max-width: 230px;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+    &:not(:last-child) {
+      margin-right: 21px;
+    }
   }
 }
 .page-hero__thumb {
@@ -70,6 +125,11 @@
   &:focus .page-hero__desc {
     color: var(--light-text-color);
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    padding: 10px;
+    height: 175px;
+  }
 }
 .page-hero__icon {
   fill: var(--secondary-color);
@@ -85,6 +145,11 @@
   font-size: 24px;
   line-height: 1.33;
   letter-spacing: 0.1px;
+
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    width: 100%;
+    font-size: 18px;
+  }
 }
 .page-hero__desc {
   font-weight: 500;
