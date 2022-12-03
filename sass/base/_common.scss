@@ -1,3 +1,5 @@
+// Flex-basis(width): calc((100% - к-сть марджинів в рядку * значення марджину) / к-сть элементів в рядку);
+
 body {
   font-family: var(--main-font);
   color: var(--text-color);
