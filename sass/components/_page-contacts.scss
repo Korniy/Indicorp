@@ -24,6 +24,10 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: var(--second-text-color);
+
+  @media screen and (min-width: 768px) {
+    width: 470px;
+  }
 }
 .page-contacts__list {
   @media screen and (min-width: 768px) {
