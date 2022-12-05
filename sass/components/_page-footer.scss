@@ -1,6 +1,9 @@
 .page-footer {
   padding-top: 40px;
   padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0;
+  }
 }
 .wrapper {
   @media screen and (min-width: 768px) and (max-width: 1099px) {
@@ -88,6 +91,14 @@
     padding: 20px;
   }
 }
+.bottom-inner {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
 .page-footer__list {
   @media screen and (min-width: 768px) and (max-width: 1099px) {
     display: flex;
@@ -153,6 +164,11 @@
   line-height: 1.71;
   letter-spacing: 0.2px;
   color: var(--second-text-color);
+
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    width: 100%;
+    margin: 0;
+  }
 }
 .socials-list {
   display: flex;
