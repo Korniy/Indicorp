@@ -118,6 +118,7 @@
             We know how large objects will act, but things on a small scale just do not act that
             way.
           </p>
+
           <button class="btn" type="button" data-modal-open>Get Quote Now</button>
           <button class="btn" type="button">Learn More</button>
 
@@ -629,9 +630,12 @@
         </nav>
       </div>
     </div>
+
     <!-- Модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal"></div>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>close</button>
+      </div>
     </div>
 
     <script src="./js/burger-menu.js"></script>
